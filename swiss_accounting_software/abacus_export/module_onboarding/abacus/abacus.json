@@ -1,0 +1,32 @@
+{
+ "allow_roles": [
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "creation": "2025-08-12 11:13:06.218096",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "/app/abacus20%export",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2025-08-12 11:13:06.218096",
+ "modified_by": "Administrator",
+ "module": "Abacus Export",
+ "name": "Abacus",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Abacus Export"
+  }
+ ],
+ "subtitle": "How it works",
+ "success_message": "You completed Exporting process with success",
+ "title": "Abacus Accounting Outsourcing "
+}

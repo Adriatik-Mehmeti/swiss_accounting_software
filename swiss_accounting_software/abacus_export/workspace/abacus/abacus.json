@@ -1,0 +1,57 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"KKUNWBtkcZ\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"Abacus\",\"col\":12}},{\"id\":\"vuGNo5z32A\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"id\":\"RUfCS7voev\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Export Data\",\"col\":3}},{\"id\":\"o-Alp1SZzR\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ssuVMNzPUt\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reports &amp; Masters</span>\",\"col\":12}},{\"id\":\"0LKiWNAiAg\",\"type\":\"card\",\"data\":{\"card_name\":\"Abacus\",\"col\":4}}]",
+ "creation": "2025-08-12 11:07:29.256617",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Abacus",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Abacus",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Abacus Export",
+   "link_count": 0,
+   "link_to": "Abacus Export",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-08-15 14:18:40.727908",
+ "modified_by": "Administrator",
+ "module": "Abacus Export",
+ "name": "Abacus",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Swiss Accounting",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 40.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Export Data",
+   "link_to": "Abacus Export",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Abacus"
+}

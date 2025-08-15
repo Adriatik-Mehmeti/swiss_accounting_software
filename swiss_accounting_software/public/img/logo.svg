@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="Schweiz.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,74.981674,0,1 @ F,0,0,1,0,73.73259,0,1 @ F,0,0,1,0,83.725259,0,1 @ F,0,0,1,0,77.479841,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.80058688"
+     inkscape:cx="298.531"
+     inkscape:cy="389.08957"
+     inkscape:window-width="1680"
+     inkscape:window-height="938"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     fill="#f6f6f6"
+     d="M 74.981674,0 H 426.26741 A 73.73259,73.73259 45 0 1 500,73.73259 l 0,342.54215 A 83.725259,83.725259 135 0 1 416.27474,500 H 77.479841 A 77.479841,77.479841 45 0 1 0,422.52016 V 74.981674 A 74.981674,74.981674 135 0 1 74.981674,0 Z"
+     id="path1"
+     sodipodi:nodetypes="ccccc"
+     inkscape:path-effect="#path-effect3"
+     inkscape:original-d="M 0,0 H 500 V 500 H 0 Z" />
+  <path
+     fill="#FE0000"
+     d="M242.223 60.6145C251.941 60.3154 261.482 60.6878 271.181 61.1073C308.406 62.7235 345.359 68.2325 381.436 77.5443C390.189 79.7783 398.889 82.2177 407.528 84.8603C411.875 86.1807 416.602 87.8704 420.909 89.0147C421.737 122.153 420.734 157.871 418.432 190.847C413.916 255.549 395.864 320.754 351.063 369.513C323.413 399.605 292.468 419.458 255.686 436.762L250.138 439.389C214.091 422.5 185.207 405.984 156.742 377.468C78.4439 299.032 79.3377 191.809 79.4357 89.0692C131.964 71.475 186.841 61.8828 242.223 60.6145Z"
+     id="path2" />
+  <path
+     fill="#F6F6F6"
+     d="M215.764 117.519L284.396 117.505L284.364 197.436C310.583 197.169 337.718 197.272 363.952 197.438L363.93 236.827C363.929 246.245 363.768 256.201 363.983 265.552L284.445 265.537C284.103 291.723 284.288 318.946 284.408 345.17C283.925 345.547 221.504 345.365 215.796 345.445L215.806 265.556L136.284 265.572L136.269 197.399L215.882 197.446C215.44 189.568 215.783 178.544 215.783 170.449L215.764 117.519Z"
+     id="path3" />
+</svg>

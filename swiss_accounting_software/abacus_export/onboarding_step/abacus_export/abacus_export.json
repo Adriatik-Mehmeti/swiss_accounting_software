@@ -1,0 +1,19 @@
+{
+ "action": "Create Entry",
+ "creation": "2025-08-12 11:11:57.666280",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2025-08-12 11:11:57.666280",
+ "modified_by": "Administrator",
+ "name": "Abacus Export",
+ "owner": "Administrator",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Export",
+ "description": "The Abacus Export module provides seamless integration between ERPNext and the Abacus Swiss accounting system. It enables you to prepare, validate, and export payroll and financial data from ERPNext in formats accepted by Abacus, ensuring compliance with Swiss reporting standards.\n\nWith this module, you can:\n\n1. Select relevant payroll periods, employee data, and financial transactions for export.\n2. Automatically apply Swiss-specific tax codes (Steuerziffer) and allowances from your ERPNext records.\n3. Generate standardized export files in Abacus-compatible formats for quick import into your Abacus environment.\n4. Reduce manual data entry and eliminate format errors during the payroll or accounting transfer process.\n5. Maintain a consistent, auditable workflow for cross-system data synchronization.\n\nThis module is ideal for Swiss companies who manage HR, payroll, or financials in ERPNext but need to transfer final data to Abacus for accounting, compliance, or further processing.",
+ "validate_action": 1
+}

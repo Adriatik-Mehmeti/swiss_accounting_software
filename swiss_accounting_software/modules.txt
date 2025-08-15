@@ -1,0 +1,7 @@
+Swiss Accounting Software
+Abacus Export
+Module QR Code
+Module Tax
+Module Payroll
+Camt Erpnext
+Module Utils

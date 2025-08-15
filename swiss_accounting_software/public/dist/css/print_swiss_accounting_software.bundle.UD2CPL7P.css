@@ -1,0 +1,96 @@
+/* ../../../../../../tmp/tmp-2691-rdxHXtbZD1av/swiss_accounting_software/swiss_accounting_software/public/css/print_swiss_accounting_software.bundle.css */
+.print-format .info-invoice td,
+.print-format .info-invoice th {
+  padding: 6px 0.3rem !important;
+}
+.print-format .info-invoice .info-invoice .info-helper {
+  padding: 6px 0.3rem !important;
+}
+.print-format .table-info .table th,
+.print-format .table-info .table td {
+  border: 0;
+  padding: 1px 0.3rem !important;
+}
+.print-format .table-info .table th {
+  text-align: left;
+}
+.print-format .table-info .table td {
+  text-align: right;
+}
+.print-format .table-invoice-amount th {
+  text-align: left;
+}
+.print-format .table-invoice-amount td {
+  text-align: right;
+}
+.print-format .table-invoice-amount {
+  margin-top: 20px;
+  border: 0;
+}
+.print-format .table-invoice-amount table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.print-format .table-invoice-amount th,
+.print-format .table-invoice-amount td {
+  border: 0;
+  vertical-align: top;
+}
+.print-format .table-invoice-amount .price-header {
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+}
+.print-format .table-invoice-amount tr.total {
+  background-color: var(--yellow-300) !important;
+}
+.print-format .qr-bill {
+  position: relative;
+  display: flex;
+  width: 100%;
+  border-top: 2px dashed rgba(0, 0, 0, 0.431372549) !important;
+  border-top-width: 2px;
+  page-break-after: always;
+  margin-top: auto;
+}
+.print-format .qr-bill.cut-line::before {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: -11px;
+  width: 20px;
+  height: 20px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M9 18.5L17 3M9 18.5C9 19.8807 7.88071 21 6.5 21C5.11929 21 4 19.8807 4 18.5C4 17.1193 5.11929 16 6.5 16C7.88071 16 9 17.1193 9 18.5ZM15 18.5L7 3M15 18.5C15 19.8807 16.1193 21 17.5 21C18.8807 21 20 19.8807 20 18.5C20 17.1193 18.8807 16 17.5 16C16.1193 16 15 17.1193 15 18.5Z" stroke="%23000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-size: contain;
+  transform: rotate(-90deg);
+}
+.print-format .qr-bill .receipt {
+  border-right: 2px dashed rgba(0, 0, 0, 0.431372549) !important;
+  border-right-width: 2px;
+}
+.print-format .qr-bill .receipt.cut-line::before {
+  content: "";
+  position: absolute;
+  right: -11px;
+  bottom: 11%;
+  width: 20px;
+  height: 20px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M9 18.5L17 3M9 18.5C9 19.8807 7.88071 21 6.5 21C5.11929 21 4 19.8807 4 18.5C4 17.1193 5.11929 16 6.5 16C7.88071 16 9 17.1193 9 18.5ZM15 18.5L7 3M15 18.5C15 19.8807 16.1193 21 17.5 21C18.8807 21 20 19.8807 20 18.5C20 17.1193 18.8807 16 17.5 16C16.1193 16 15 17.1193 15 18.5Z" stroke="%23000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-size: contain;
+}
+.print-format .qr-bill h6 {
+  font-size: 14px;
+}
+.print-format .qr-bill p {
+  font-size: smaller;
+  margin-bottom: 0.4rem;
+}
+.print-format .qr-bill .qr-code-img {
+  background: #fff;
+  max-width: 150px;
+}
+.print-format .valute {
+  display: flex;
+  gap: 20%;
+}
+/*# sourceMappingURL=print_swiss_accounting_software.bundle.UD2CPL7P.css.map */
