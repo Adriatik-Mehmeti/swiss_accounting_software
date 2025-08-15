@@ -1,41 +1,57 @@
-### Swiss Accounting Software
+# Swiss Accounting Software (Forked & Enhanced)
 
-Accounting app for Schweiz
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Adriatik-Mehmeti/swiss_accounting_software/refs/heads/version-15/swiss_accounting_software/public/img/logo.svg" alt="Swiss Accounting Software Logo" width="160">
+</p>
 
-### Installation
+## Description
+Swiss Accounting Software is a Frappe app focused on Swiss requirements, including true-to-standard QR invoices.  
+This repository is **forked** and **improved** for clearer invoice layouts, better documentation, and a smoother setup.
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+---
+
+## Features
+- QR-compliant Swiss invoices (SPC/QR-Bill) with clean, structured layout.
+- Integrated payment slip (receipt) with scannable QR.
+- Clear separation of header, reference, amount, due date, and payment details.
+- Export for Abacus
+
+---
+
+## Example A4 Invoice
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Adriatik-Mehmeti/swiss_accounting_software/refs/heads/version-15/swiss_accounting_software/public/img/Test.pdf.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/Adriatik-Mehmeti/swiss_accounting_software/refs/heads/version-15/swiss_accounting_software/public/img/Test.pdf.png" alt="Example Swiss QR Invoice (A4)" width="700">
+  </a>
+</p>
+
+**Credits:**
+- **fork:** Repo is forked and improved.
+
+
+---
+
+## Installation (Frappe/Bench, v15)
+
+> **Prerequisites:** A working Frappe/Bench environment (v15) with Redis, MariaDB, Node.js, and Yarn.  
+> If you don’t have Bench set up yet, follow the [official Frappe installation guide](https://frappeframework.com/docs/user/en/installation).
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app swiss_accounting_software
-```
+# 1) Go to your bench
+cd ~/frappe-bench
 
-### Contributing
+# 2) Get the app (version-15 branch)
+bench get-app
+  https://github.com/Adriatik-Mehmeti/swiss_accounting_software.git --branch version-15
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+# 3) Create a site (if you don’t have one yet)
+bench new-site mysite.local
 
-```bash
-cd apps/swiss_accounting_software
-pre-commit install
-```
+# 4) Install the app on your site
+bench --site mysite.local install-app swiss_accounting_software
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
-
-
-### License
-
-mit
+# 5) Apply patches / build assets / restart
+bench --site mysite.local migrate
+bench build
+bench restart
