@@ -1,1 +1,4 @@
 PyPDF4
+qrcode
+cairosvg
+pillow
